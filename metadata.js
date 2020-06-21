@@ -59,6 +59,17 @@
 				}
 			},
 			{
+				name: 'monaco-yaml',
+				contrib: 'vs/language/yaml/monaco.contribution',
+				modulePrefix: 'vs/language/yaml',
+				paths: {
+					src: '/monaco-yaml/dev',
+					'npm/dev': 'node_modules/monaco-yaml/dev',
+					'npm/min': 'node_modules/monaco-yaml/min',
+					esm: 'node_modules/monaco-yaml/esm',
+				}
+			},
+			{
 				name: 'monaco-languages',
 				contrib: 'vs/basic-languages/monaco.contribution',
 				modulePrefix: 'vs/basic-languages',

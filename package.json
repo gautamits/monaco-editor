@@ -38,6 +38,7 @@
     "monaco-json": "2.9.0",
     "monaco-languages": "1.10.0",
     "monaco-typescript": "3.7.0",
+    "monaco-yaml": "git://github.com/adotg/monaco-yaml.git",
     "playwright": "^1.0.1",
     "rimraf": "^3.0.2",
     "style-loader": "^1.1.3",
